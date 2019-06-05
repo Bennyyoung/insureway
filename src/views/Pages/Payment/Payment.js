@@ -60,6 +60,28 @@ class Payment extends Component {
                         <Input type="email" placeholder="Email" name="email" autocomplete="on" maxlenght="60" required />
                       </InputGroup>
 
+                      <FormGroup tag="fieldset">
+                        <h1>Insurance Types</h1>
+                        <FormGroup check>
+                            <Label check>
+                            <Input type="radio" name="radio1" />{' '}
+                            From theft
+                            </Label>
+                        </FormGroup>
+                        <FormGroup check>
+                            <Label check>
+                            <Input type="radio" name="radio1" />{' '}
+                            Files, Audios and videos
+                            </Label>
+                        </FormGroup>
+                        <FormGroup check>
+                            <Label check>
+                            <Input type="radio" name="radio1" />{' '}
+                            Both
+                            </Label>
+                        </FormGroup>
+                    </FormGroup>
+
                       <Row>
                         <Col xs="6">
                           <Button color="primary" className="px-4">Submit</Button>
@@ -71,27 +93,7 @@ class Payment extends Component {
 
                 <Card className="p-4">
                   <CardBody>
-                    <FormGroup tag="fieldset">
-                    <h1>Insurance Types</h1>
-                    <FormGroup check>
-                        <Label check>
-                        <Input type="radio" name="radio1" />{' '}
-                        From theft
-                        </Label>
-                    </FormGroup>
-                    <FormGroup check>
-                        <Label check>
-                        <Input type="radio" name="radio1" />{' '}
-                        Files, Audios and videos
-                        </Label>
-                    </FormGroup>
-                    <FormGroup check>
-                        <Label check>
-                        <Input type="radio" name="radio1" />{' '}
-                        Both
-                        </Label>
-                    </FormGroup>
-                </FormGroup>
+                    
                   </CardBody>
                 </Card>
               </CardGroup>
