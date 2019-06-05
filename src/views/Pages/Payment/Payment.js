@@ -71,7 +71,7 @@ class Payment extends Component {
                         <FormGroup check>
                             <Label check>
                             <Input type="radio" name="radio1" />{' '}
-                            Files, Audios and videos
+                            Files, Audios and Videos
                             </Label>
                         </FormGroup>
                         <FormGroup check>
@@ -88,12 +88,6 @@ class Payment extends Component {
                         </Col>
                       </Row>
                     </Form>
-                  </CardBody>
-                </Card>
-
-                <Card className="p-4">
-                  <CardBody>
-                    
                   </CardBody>
                 </Card>
               </CardGroup>
