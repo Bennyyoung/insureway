@@ -17,7 +17,7 @@ export default {
     },
     {
       name: 'Payments / Insurance Types',
-      url: '/payments',
+      url: '/payment',
       icon: 'icon-star',
     }
   ],
